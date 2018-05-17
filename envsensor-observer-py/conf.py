@@ -40,6 +40,6 @@ INFLUXDB_OUTPUT = True
 INFLUXDB_ADDRESS = "192.168.111.199"  # enter IP address of influxDB
 INFLUXDB_PORT = 8086  # enter port number of influxDB
 INFLUXDB_DATABASE = "test"  # enter influxDB database name
-INFLUXDB_MEASUREMENT = "omron"  # enter measurement name
+INFLUXDB_MEASUREMENT = "value"  # enter measurement name
 INFLUXDB_USER = "root"  # enter influxDB username
 INFLUXDB_PASSWORD = "root"  # enter influxDB user password
