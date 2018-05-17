@@ -29,9 +29,9 @@ FLUENTD_PORT = 24224  # enter port number of fluent daemon
 
 # fluent-plugin-influxdb (when using influxDB through fluentd.)
 FLUENTD_INFLUXDB = False
-FLUENTD_INFLUXDB_ADDRESS = "xxx.xxx.xxx.xxx"  # enter IP address of Cloud Server
+FLUENTD_INFLUXDB_ADDRESS = "192.168.111.199"  # enter IP address of Cloud Server
 FLUENTD_INFLUXDB_PORT_STRING = "8086"  # enter port number string of influxDB
-FLUENTD_INFLUXDB_DATABASE = "xxxxxxxx"  # enter influxDB database name
+FLUENTD_INFLUXDB_DATABASE = "test"  # enter influxDB database name
 
 
 # uploading data to the cloud (required influxDB 0.9 or higher)
