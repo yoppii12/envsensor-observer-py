@@ -21,9 +21,9 @@ CSV_DIR_PATH = os.path.dirname(os.path.abspath(__file__)) + "/log"
 
 
 # use fluentd forwarder
-FLUENTD_FORWARD = False
+FLUENTD_FORWARD = true
 # fluent-logger-python
-FLUENTD_TAG = "xxxxxxxx"  # enter "tag" name
+FLUENTD_TAG = "tag"  # enter "tag" name
 FLUENTD_ADDRESS = "localhost"  # enter "localhost" or IP address of remote fluentd
 FLUENTD_PORT = 24224  # enter port number of fluent daemon
 
