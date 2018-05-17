@@ -21,7 +21,7 @@ CSV_DIR_PATH = os.path.dirname(os.path.abspath(__file__)) + "/log"
 
 
 # use fluentd forwarder
-FLUENTD_FORWARD = true
+FLUENTD_FORWARD = False
 # fluent-logger-python
 FLUENTD_TAG = "tag"  # enter "tag" name
 FLUENTD_ADDRESS = "localhost"  # enter "localhost" or IP address of remote fluentd
@@ -35,11 +35,11 @@ FLUENTD_INFLUXDB_DATABASE = "test"  # enter influxDB database name
 
 
 # uploading data to the cloud (required influxDB 0.9 or higher)
-INFLUXDB_OUTPUT = False
+INFLUXDB_OUTPUT = True
 # InfluxDB
-INFLUXDB_ADDRESS = "xxx.xxx.xxx.xxx"  # enter IP address of influxDB
+INFLUXDB_ADDRESS = "192.168.111.199"  # enter IP address of influxDB
 INFLUXDB_PORT = 8086  # enter port number of influxDB
-INFLUXDB_DATABASE = "xxxxxxxx"  # enter influxDB database name
-INFLUXDB_MEASUREMENT = "xxxxxxxx"  # enter measurement name
+INFLUXDB_DATABASE = "test"  # enter influxDB database name
+INFLUXDB_MEASUREMENT = "omron"  # enter measurement name
 INFLUXDB_USER = "root"  # enter influxDB username
 INFLUXDB_PASSWORD = "root"  # enter influxDB user password
